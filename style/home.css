@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=WDXL%20Lubrifont%20TC:700|WDXL%20Lubrifont%20TC:400');
+html{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+body{
+    background: #0d1614;
+    font-family: 'WDXL Lubrifont TC';
+    color:#e4ecea;
+    padding: 10px;
+}
+.head{
+    position:fixed;
+    left:10px;
+    right:10px;
+    top:10px;
+    padding:10px;
+    background: rgba(13,22,20, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.footer{
+    background: #152521;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    gap: 20px; 
+}
+.challenge {
+    border-radius: 20px;
+    padding: 20px;
+}
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.challenges {
+    flex: 1;
+    padding: 10px;
+    border: 20px solid #a9d1c9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.headers{
+    background: #152521;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    text-align:center;
+}
+.about{
+    background: #1b332c;
+    padding: 15px;
+    border-radius: 20px;
+    text-align:center;
+    margin-bottom: 20px;
+}
+h2{
+    background: #316d60;
+    padding: 10px;
+    border-radius: 20px;
+    color:#d4d4b5;
+    display: inline;
+    margin-right: 10px;
+}
+.line{
+    background: #214b42;
+    padding: 5px;
+    width:150px;
+    margin: auto;
+    margin-top:-30px;
+    margin-bottom:20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  th{
+    background-color: #1b332c;
+    font-size: 18px;
+  }
+  .button-1{
+    background: #a9d1c9;
+    padding: 10px;
+    border-radius: 10px;
+    width:150px;
+    border: none;
+    font-family: 'WDXL Lubrifont TC';
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .button-2{
+    background: #1c3f38;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'WDXL Lubrifont TC';
+    font-size: 20px;
+    width:150px;
+    border: none;
+    color:#e4ecea;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+  }
+  .help{
+    background: #1b332c;
+    padding: 15px;
+    border-radius: 20px;
+    text-align:left;
+    margin-bottom: 20px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: none; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.1);
+  }
+
+  .res{
+    background: #1b332c;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .fr{
+    width: 340px;
+}
+  label {
+    display: block;
+    text-align: left;
+    margin-bottom: -10px;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 2px solid #e4ecea;
+    outline: none;
+    font-size: 20px;
+    border-radius: 4px;
+    background: none;
+    color:white;
+    font-family: 'WDXL Lubrifont TC';
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #214b42;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'WDXL Lubrifont TC';
+    font-size: 20px;
+  }
+  input[type="submit"]:hover {
+    background-color: #15312b;
+  }
+.counti{
+  background: #1b332c;
+  padding: 15px;
+  border-radius: 20px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px; 
+  box-sizing: border-box;
+}
+.msg{
+  float:left;
+  margin-right: 10px;
+}
+.data{
+  float:right;
